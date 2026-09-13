@@ -32,7 +32,7 @@ The purpose of directory enumeration is to discover directories and pages that m
 
 Example:
 
-    dir <target>
+    dirb <target>
 
 Directory enumeration can reveal resources such as:
 
@@ -67,7 +67,7 @@ Therefore, knowing or discovering an administrative URL should not be enough to 
 | Tool / Technique | Purpose |
 |---|---|
 | Web Browser | Interact with the target web application |
-| `dir` | Enumerate directories and hidden web resources |
+| `dirb` | Enumerate directories and hidden web resources |
 | Directory Enumeration | Discover additional application endpoints |
 | Access-Control Testing | Check whether restricted resources are properly protected |
 
